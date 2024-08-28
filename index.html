@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet"> 
+    <script src="js_file.js"></script>
+
+
+
+
+</head>
+
+
+<body> 
+
+    <div class="main-div">
+    
+      <nav>
+        <header class="headerr">Calculator</header>
+      </nav>
+
+       <div class="options">
+        <input type="text" id="output-scrn" style="text-align:right">
+
+            <div>
+            <button onclick="displayclr()" class="clear-btn">AC</button>
+
+            </div>
+
+            <div class="demo">
+                <button onclick="btnclick(7)" class="first-row">7</button>
+                <button onclick="btnclick(8)" class="first-row">8</button>
+                <button onclick="btnclick(9)" class="first-row">9</button>
+                <button onclick="btnclick('/')" class="first-row">/</button>
+            </div>
+
+            <div class="row-2">
+                <button onclick="btnclick(4)" class="second-row">4</button>
+                <button onclick="btnclick(5)"  class="second-row">5</button>
+                <button onclick="btnclick(6)"  class="second-row">6</button>
+                <button onclick="btnclick('*')" class="second-row">*</button>
+
+            </div> 
+
+            <div>
+                <button onclick="btnclick(1)" class="third-row">1</button>
+                <button onclick="btnclick(2)" class="third-row">2</button>
+                <button onclick="btnclick(3)" class="third-row">3</button>
+                <button onclick="btnclick('-')"class="third-row">-</button>
+                
+            </div> 
+
+            <div>
+                <button onclick="btnclick(0)" class="fourth-row">0</button>
+                <button onclick="btnclick('.')" class="fourth-row">.</button>
+                <button onclick="resultbtn('=')" class="fourth-row">=</button>
+                <button onclick="btnclick('+')" class="fourth-row">+</button>
+
+            </div>
+
+
+       </div>
+       
+
+     </div>
+
+</body>
+</html>
